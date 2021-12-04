@@ -16,7 +16,7 @@ public class StartPage extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.start_page);
 
-
+	System.out.println("Hello, this is our home page!");
         newsButton = findViewById(R.id.newsButton);
         newsButton.setOnClickListener(new View.OnClickListener(){
               @Override
